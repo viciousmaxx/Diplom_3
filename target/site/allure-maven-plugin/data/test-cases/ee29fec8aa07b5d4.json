@@ -1,0 +1,288 @@
+{
+  "uid" : "ee29fec8aa07b5d4",
+  "name" : "personalAccountAvailableWithAuthorizationTest",
+  "fullName" : "PersonalAccountTest.personalAccountAvailableWithAuthorizationTest",
+  "historyId" : "3648b9068f464d9818c419b99e6bb828",
+  "time" : {
+    "start" : 1652029864027,
+    "stop" : 1652029874677,
+    "duration" : 10650
+  },
+  "description" : "Переход в личный кабинет авторизованного пользователя перенаправляет на страницу профиля",
+  "descriptionHtml" : "<p>Переход в личный кабинет авторизованного пользователя перенаправляет на страницу профиля</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Переход в личный кабинет авторизованного пользователя перенаправляет на страницу профиля",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создаем пользователя со случайными данными",
+      "time" : {
+        "start" : 1652029865144,
+        "stop" : 1652029865166,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b95dbe3e53444b7e",
+        "name" : "Email",
+        "source" : "b95dbe3e53444b7e.txt",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "872d1d3c2ec1f9e9",
+        "name" : "Password",
+        "source" : "872d1d3c2ec1f9e9.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "88f3d75700d761d1",
+        "name" : "First name",
+        "source" : "88f3d75700d761d1.txt",
+        "type" : "text/plain",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Имя'",
+      "time" : {
+        "start" : 1652029869895,
+        "stop" : 1652029869984,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Charlotte Spinka"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029869984,
+        "stop" : 1652029870091,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "evan.stiedemann@gmail.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029870091,
+        "stop" : 1652029870182,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "v9n750k1i"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1652029870182,
+        "stop" : 1652029870233,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Логин пользователя",
+      "time" : {
+        "start" : 1652029870234,
+        "stop" : 1652029871038,
+        "duration" : 804
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=evan.stiedemann@gmail.com, password=v9n750k1i, name=Charlotte Spinka, accessToken=null, refreshToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Войти'",
+      "time" : {
+        "start" : 1652029871354,
+        "stop" : 1652029871850,
+        "duration" : 496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029871850,
+        "stop" : 1652029871934,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "evan.stiedemann@gmail.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029871935,
+        "stop" : 1652029872017,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "v9n750k1i"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Войти'",
+      "time" : {
+        "start" : 1652029872017,
+        "stop" : 1652029872067,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Личный Кабинет'",
+      "time" : {
+        "start" : 1652029872067,
+        "stop" : 1652029872749,
+        "duration" : 682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1652029873860,
+        "stop" : 1652029874677,
+        "duration" : 817
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=evan.stiedemann@gmail.com, password=v9n750k1i, name=Charlotte Spinka, accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzdmOWFlOTk5ZmIyMDAxYjZlYzEyMyIsImlhdCI6MTY1MjAyOTg3MCwiZXhwIjoxNjUyMDMxMDcwfQ.rjoBbjYVpEpFxuaNnyoP0IT_ozYwXxi-oT6koJUBUiU, refreshToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 12
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "PersonalAccountTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "personalAccountAvailableWithAuthorizationTest"
+  }, {
+    "name" : "suite",
+    "value" : "PersonalAccountTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PNA8O1J9"
+  }, {
+    "name" : "thread",
+    "value" : "23536@LAPTOP-PNA8O1J9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee29fec8aa07b5d4.json",
+  "parameterValues" : [ ]
+}

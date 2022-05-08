@@ -1,0 +1,303 @@
+{
+  "uid" : "3e39d8b345a55319",
+  "name" : "goToConstructorPageFromPersonalAccountPageIsAvailableWithHeaderLogoTest",
+  "fullName" : "PersonalAccountTest.goToConstructorPageFromPersonalAccountPageIsAvailableWithHeaderLogoTest",
+  "historyId" : "4320f2d2294f9304da1a868a43b5e09a",
+  "time" : {
+    "start" : 1652029822498,
+    "stop" : 1652029834683,
+    "duration" : 12185
+  },
+  "description" : "Переход из личного кабинета по клику на логотип Stellar Burgers перенаправляет на главную страницу",
+  "descriptionHtml" : "<p>Переход из личного кабинета по клику на логотип Stellar Burgers перенаправляет на главную страницу</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Переход из личного кабинета по клику на логотип Stellar Burgers перенаправляет на главную страницу",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создаем пользователя со случайными данными",
+      "time" : {
+        "start" : 1652029823638,
+        "stop" : 1652029823659,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "862ba505f6ad25ef",
+        "name" : "Email",
+        "source" : "862ba505f6ad25ef.txt",
+        "type" : "text/plain",
+        "size" : 23
+      }, {
+        "uid" : "e879b381a8e8df01",
+        "name" : "Password",
+        "source" : "e879b381a8e8df01.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "fcee997d67b860a",
+        "name" : "First name",
+        "source" : "fcee997d67b860a.txt",
+        "type" : "text/plain",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Имя'",
+      "time" : {
+        "start" : 1652029829902,
+        "stop" : 1652029829991,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Marcelo Connelly"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029829991,
+        "stop" : 1652029830085,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "emiko.ferry@hotmail.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029830086,
+        "stop" : 1652029830180,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "frqy2ans2"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1652029830180,
+        "stop" : 1652029830229,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Логин пользователя",
+      "time" : {
+        "start" : 1652029830229,
+        "stop" : 1652029831042,
+        "duration" : 813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=emiko.ferry@hotmail.com, password=frqy2ans2, name=Marcelo Connelly, accessToken=null, refreshToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Войти'",
+      "time" : {
+        "start" : 1652029831346,
+        "stop" : 1652029831836,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029831837,
+        "stop" : 1652029831923,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "emiko.ferry@hotmail.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029831923,
+        "stop" : 1652029832007,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "frqy2ans2"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Войти'",
+      "time" : {
+        "start" : 1652029832008,
+        "stop" : 1652029832057,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Личный Кабинет'",
+      "time" : {
+        "start" : 1652029832058,
+        "stop" : 1652029832686,
+        "duration" : 628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по логотипу Stellar Burgers",
+      "time" : {
+        "start" : 1652029832687,
+        "stop" : 1652029833190,
+        "duration" : 503
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1652029833882,
+        "stop" : 1652029834683,
+        "duration" : 801
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=emiko.ferry@hotmail.com, password=frqy2ans2, name=Marcelo Connelly, accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzdmOTg2OTk5ZmIyMDAxYjZlYzExNyIsImlhdCI6MTY1MjAyOTgzMCwiZXhwIjoxNjUyMDMxMDMwfQ.KQby4y4FI1kpadPXwluyHzxKo7mbVwh2shWdbWNXANs, refreshToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "PersonalAccountTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "goToConstructorPageFromPersonalAccountPageIsAvailableWithHeaderLogoTest"
+  }, {
+    "name" : "suite",
+    "value" : "PersonalAccountTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PNA8O1J9"
+  }, {
+    "name" : "thread",
+    "value" : "23536@LAPTOP-PNA8O1J9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e39d8b345a55319.json",
+  "parameterValues" : [ ]
+}

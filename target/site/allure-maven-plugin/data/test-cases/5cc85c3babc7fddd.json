@@ -1,0 +1,138 @@
+{
+  "uid" : "5cc85c3babc7fddd",
+  "name" : "registrationWithShortPasswordTest[Проверяемый пароль: uGonQv, отображение ошибки: false]",
+  "fullName" : "ParametrizedWrongPasswordRegistrationTest.registrationWithShortPasswordTest[Проверяемый пароль: uGonQv, отображение ошибки: false]",
+  "historyId" : "84ba9ac1eab987c4469493b4a89f92c1",
+  "time" : {
+    "start" : 1652029815412,
+    "stop" : 1652029822495,
+    "duration" : 7083
+  },
+  "description" : "Попытка регистрации с коротким паролем выводит сообщение 'Некорректный пароль'",
+  "descriptionHtml" : "<p>Попытка регистрации с коротким паролем выводит сообщение 'Некорректный пароль'</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Попытка регистрации с коротким паролем выводит сообщение 'Некорректный пароль'",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод значения в поле 'Имя'",
+      "time" : {
+        "start" : 1652029821454,
+        "stop" : 1652029821544,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Ms. Hester Witting"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029821552,
+        "stop" : 1652029821653,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "grant.barton@yahoo.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029821653,
+        "stop" : 1652029821752,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "uGonQv"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1652029821752,
+        "stop" : 1652029821804,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ParametrizedWrongPasswordRegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationWithShortPasswordTest[Проверяемый пароль: uGonQv, отображение ошибки: false]"
+  }, {
+    "name" : "suite",
+    "value" : "ParametrizedWrongPasswordRegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PNA8O1J9"
+  }, {
+    "name" : "thread",
+    "value" : "23536@LAPTOP-PNA8O1J9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cc85c3babc7fddd.json",
+  "parameterValues" : [ ]
+}

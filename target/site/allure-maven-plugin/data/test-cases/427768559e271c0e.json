@@ -1,0 +1,273 @@
+{
+  "uid" : "427768559e271c0e",
+  "name" : "loginFromPersonalAccountTest",
+  "fullName" : "LoginTest.loginFromPersonalAccountTest",
+  "historyId" : "aeb202e0da8dbe76f10b848f492dab3e",
+  "time" : {
+    "start" : 1652029775774,
+    "stop" : 1652029785132,
+    "duration" : 9358
+  },
+  "description" : "Вход через кнопку «Личный кабинет» перенаправляет на главную страницу",
+  "descriptionHtml" : "<p>Вход через кнопку «Личный кабинет» перенаправляет на главную страницу</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Вход через кнопку «Личный кабинет» перенаправляет на главную страницу",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создаем пользователя со случайными данными",
+      "time" : {
+        "start" : 1652029776914,
+        "stop" : 1652029776941,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93d7a221beb2216e",
+        "name" : "Email",
+        "source" : "93d7a221beb2216e.txt",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "e6ec045c978e39ee",
+        "name" : "Password",
+        "source" : "e6ec045c978e39ee.txt",
+        "type" : "text/plain",
+        "size" : 13
+      }, {
+        "uid" : "3972746d040049df",
+        "name" : "First name",
+        "source" : "3972746d040049df.txt",
+        "type" : "text/plain",
+        "size" : 14
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Имя'",
+      "time" : {
+        "start" : 1652029780798,
+        "stop" : 1652029780889,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Charlie Stokes"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029780890,
+        "stop" : 1652029780990,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "deadra.douglas@yahoo.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029780990,
+        "stop" : 1652029781091,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "pf8vrn14k44l3"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1652029781091,
+        "stop" : 1652029781142,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Логин пользователя",
+      "time" : {
+        "start" : 1652029781142,
+        "stop" : 1652029782055,
+        "duration" : 913
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=deadra.douglas@yahoo.com, password=pf8vrn14k44l3, name=Charlie Stokes, accessToken=null, refreshToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Личный Кабинет'",
+      "time" : {
+        "start" : 1652029782395,
+        "stop" : 1652029782961,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029782962,
+        "stop" : 1652029783059,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "deadra.douglas@yahoo.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029783059,
+        "stop" : 1652029783152,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "pf8vrn14k44l3"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Войти'",
+      "time" : {
+        "start" : 1652029783152,
+        "stop" : 1652029783201,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1652029784331,
+        "stop" : 1652029785132,
+        "duration" : 801
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=deadra.douglas@yahoo.com, password=pf8vrn14k44l3, name=Charlie Stokes, accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzdmOTU1OTk5ZmIyMDAxYjZlYzExMSIsImlhdCI6MTY1MjAyOTc4MSwiZXhwIjoxNjUyMDMwOTgxfQ._UnseGnInUgO7ACsW4InBQ1tdqg_0n4pgdLIloH2jtI, refreshToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginFromPersonalAccountTest"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PNA8O1J9"
+  }, {
+    "name" : "thread",
+    "value" : "23536@LAPTOP-PNA8O1J9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "427768559e271c0e.json",
+  "parameterValues" : [ ]
+}

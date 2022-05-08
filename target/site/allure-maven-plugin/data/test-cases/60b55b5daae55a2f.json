@@ -1,0 +1,207 @@
+{
+  "uid" : "60b55b5daae55a2f",
+  "name" : "successfulRegistrationTest",
+  "fullName" : "RegistrationTest.successfulRegistrationTest",
+  "historyId" : "9726cbe2642f49a799cc0a2070876feb",
+  "time" : {
+    "start" : 1652029874682,
+    "stop" : 1652029886303,
+    "duration" : 11621
+  },
+  "description" : "Успешная регистрация перенаправляет на главную страницу",
+  "descriptionHtml" : "<p>Успешная регистрация перенаправляет на главную страницу</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Успешная регистрация перенаправляет на главную страницу",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создаем пользователя со случайными данными",
+      "time" : {
+        "start" : 1652029875798,
+        "stop" : 1652029875813,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dabd96ae14527681",
+        "name" : "Email",
+        "source" : "dabd96ae14527681.txt",
+        "type" : "text/plain",
+        "size" : 26
+      }, {
+        "uid" : "6b51e4eabfb2d48c",
+        "name" : "Password",
+        "source" : "6b51e4eabfb2d48c.txt",
+        "type" : "text/plain",
+        "size" : 10
+      }, {
+        "uid" : "74e4b737da7f2186",
+        "name" : "First name",
+        "source" : "74e4b737da7f2186.txt",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Имя'",
+      "time" : {
+        "start" : 1652029883110,
+        "stop" : 1652029883193,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Dewayne Koss"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029883193,
+        "stop" : 1652029883299,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "jacqulyn.schmidt@yahoo.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029883299,
+        "stop" : 1652029883396,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "7hvawgsy67"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1652029883396,
+        "stop" : 1652029883448,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Логин пользователя",
+      "time" : {
+        "start" : 1652029883909,
+        "stop" : 1652029884837,
+        "duration" : 928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=jacqulyn.schmidt@yahoo.com, password=7hvawgsy67, name=Dewayne Koss, accessToken=null, refreshToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1652029885530,
+        "stop" : 1652029886303,
+        "duration" : 773
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=jacqulyn.schmidt@yahoo.com, password=7hvawgsy67, name=Dewayne Koss, accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzdmOWJiOTk5ZmIyMDAxYjZlYzEyNyIsImlhdCI6MTY1MjAyOTg4NCwiZXhwIjoxNjUyMDMxMDg0fQ.JB29Qtow5GSvRG25odB3QOTLKmt70IECD4lyBEmRb60, refreshToken=null)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulRegistrationTest"
+  }, {
+    "name" : "suite",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PNA8O1J9"
+  }, {
+    "name" : "thread",
+    "value" : "23536@LAPTOP-PNA8O1J9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60b55b5daae55a2f.json",
+  "parameterValues" : [ ]
+}

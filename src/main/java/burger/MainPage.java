@@ -1,0 +1,65 @@
+package burger;
+
+import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
+import io.qameta.allure.junit4.DisplayName;
+import org.openqa.selenium.By;
+
+import static com.codeborne.selenide.Selenide.$;
+
+public class MainPage {
+    static SelenideElement logInButton = $(By.xpath(".//section[2]/div/button[text()='Войти в аккаунт']"));
+    public static SelenideElement collectYouBurgerLabel = $(By.xpath(".//section[1]/h1[text()='Соберите бургер']"));
+    static SelenideElement personalAccountButton = $(By.xpath(".//p[text()='Личный Кабинет']"));
+    static SelenideElement constructorLink = $(By.xpath("//p[text()='Конструктор']"));
+    public static SelenideElement constructYouBurgerText = $(By.xpath("//h1[text()='Соберите бургер']"));
+    static SelenideElement appHeaderLogo = $(By.xpath("//nav/div/a[@href='/']"));
+    static SelenideElement bunsHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[1]"));
+    static SelenideElement sauceHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[2]"));
+    static SelenideElement fillersHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[3]"));
+    public static SelenideElement bunsSubHeaderLabel = $(By.xpath("//h2[text()='Булки']"));
+    public static SelenideElement saucesSubHeaderLabel = $(By.xpath("//h2[text()='Соусы']"));
+    public static SelenideElement fillersSubHeaderLabel = $(By.xpath("//h2[text()='Начинки']"));
+
+    @DisplayName("Клик по кнопке 'Войти'")
+    @Step("Клик по кнопке 'Войти'")
+    public void pressLogInButton() {
+        logInButton.click();
+    }
+
+    @DisplayName("Клик по кнопке 'Личный Кабинет'")
+    @Step("Клик по кнопке 'Личный Кабинет'")
+    public void pressPersonalAccountButton() {
+        personalAccountButton.click();
+    }
+
+    @DisplayName("Клик по кнопке 'Конструктор'")
+    @Step("Клик по кнопке 'Конструктор'")
+    public void pressConstructorLink() {
+        constructorLink.click();
+    }
+
+    @DisplayName("Клик по логотипу Stellar Burgers")
+    @Step("Клик по логотипу Stellar Burgers")
+    public void pressAppHeaderLogo() {
+        appHeaderLogo.click();
+    }
+
+    @DisplayName("Клик по заголовку 'Булки'")
+    @Step("Клик по кнопке 'Булки'")
+    public void pressBunsHeaderButton() {
+        bunsHeaderButton.click();
+    }
+
+    @DisplayName("Клик по заголовку 'Соусы'")
+    @Step("Клик по кнопке 'Соусы'")
+    public void pressSauceHeaderButton() {
+        sauceHeaderButton.click();
+    }
+
+    @DisplayName("Клик по заголовку 'Начинки'")
+    @Step("Клик по кнопке 'Начинки'")
+    public void pressFillersHeaderButton() {
+        fillersHeaderButton.click();
+    }
+}

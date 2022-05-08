@@ -1,0 +1,99 @@
+{
+  "uid" : "7c278d410a22e827",
+  "name" : "pathBunsIsAvailableTest",
+  "fullName" : "MainPageTest.pathBunsIsAvailableTest",
+  "historyId" : "da3deae7463e9e202316c7aa84fa67c6",
+  "time" : {
+    "start" : 1652029785137,
+    "stop" : 1652029792855,
+    "duration" : 7718
+  },
+  "description" : "Раздел «Конструктор»: работают переходы к разделу: «Булки»",
+  "descriptionHtml" : "<p>Раздел «Конструктор»: работают переходы к разделу: «Булки»</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Раздел «Конструктор»: работают переходы к разделу: «Булки»",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик по кнопке 'Соусы'",
+      "time" : {
+        "start" : 1652029792736,
+        "stop" : 1652029792788,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Булки'",
+      "time" : {
+        "start" : 1652029792788,
+        "stop" : 1652029792836,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "pathBunsIsAvailableTest"
+  }, {
+    "name" : "suite",
+    "value" : "MainPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PNA8O1J9"
+  }, {
+    "name" : "thread",
+    "value" : "23536@LAPTOP-PNA8O1J9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c278d410a22e827.json",
+  "parameterValues" : [ ]
+}
