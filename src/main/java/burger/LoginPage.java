@@ -8,11 +8,11 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
-    public static SelenideElement logInLabel = $(By.xpath("//h2[text()='Вход']"));
-    static SelenideElement logInButton = $(By.xpath(".//div/form/button[text()='Войти']"));
-    static SelenideElement signUpButton = $(By.xpath(".//a[text()='Зарегистрироваться']"));
-    static SelenideElement passwordField = $(By.cssSelector(".text[type= 'password']"));
-    static SelenideElement emailField = $(By.cssSelector("input[name='name']"));
+    public SelenideElement logInLabel = $(By.xpath("//h2[text()='Вход']"));
+    SelenideElement logInButton = $(By.xpath(".//div/form/button[text()='Войти']"));
+    SelenideElement signUpButton = $(By.xpath(".//a[text()='Зарегистрироваться']"));
+    SelenideElement passwordField = $(By.cssSelector(".text[type= 'password']"));
+    SelenideElement emailField = $(By.cssSelector("input[name='name']"));
 
     @DisplayName("Ввод значения в поле 'Пароль'")
     @Step("Ввод значения в поле 'Пароль'")

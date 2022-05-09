@@ -11,12 +11,6 @@ public class User {
     public String email;
     public String password;
     public String name;
-
-    public boolean setAccessToken(String accessToken) {
-        this.accessToken = accessToken;
-        return true;
-    }
-
     public String accessToken;
     public String refreshToken;
 

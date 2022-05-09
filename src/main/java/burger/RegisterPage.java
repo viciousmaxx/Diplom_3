@@ -9,12 +9,12 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class RegisterPage {
 
-    static SelenideElement nameField = $(By.xpath("//fieldset[1]/div/div/input"));
-    static SelenideElement emailField = $(By.xpath("//fieldset[2]/div/div/input"));
-    static SelenideElement passwordField = $(By.cssSelector(".text[type='password']"));
-    static SelenideElement signUpButton = $(By.xpath(".//button[text()='Зарегистрироваться']"));
-    static SelenideElement logInButton = $(By.xpath(".//a[text()='Войти']"));
-    public static SelenideElement errorLabel = $(By.xpath(".//fieldset[3]/div/p[text()='Некорректный пароль']"));
+    SelenideElement nameField = $(By.xpath("//fieldset[1]/div/div/input"));
+    SelenideElement emailField = $(By.xpath("//fieldset[2]/div/div/input"));
+    SelenideElement passwordField = $(By.cssSelector(".text[type='password']"));
+    SelenideElement signUpButton = $(By.xpath(".//button[text()='Зарегистрироваться']"));
+    SelenideElement logInButton = $(By.xpath(".//a[text()='Войти']"));
+    public SelenideElement errorLabel = $(By.xpath(".//fieldset[3]/div/p[text()='Некорректный пароль']"));
 
     @DisplayName("Ввод значения в поле 'Имя'")
     @Step("Ввод значения в поле 'Имя'")

@@ -8,18 +8,18 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
 
 public class MainPage {
-    static SelenideElement logInButton = $(By.xpath(".//section[2]/div/button[text()='Войти в аккаунт']"));
-    public static SelenideElement collectYouBurgerLabel = $(By.xpath(".//section[1]/h1[text()='Соберите бургер']"));
-    static SelenideElement personalAccountButton = $(By.xpath(".//p[text()='Личный Кабинет']"));
-    static SelenideElement constructorLink = $(By.xpath("//p[text()='Конструктор']"));
-    public static SelenideElement constructYouBurgerText = $(By.xpath("//h1[text()='Соберите бургер']"));
-    static SelenideElement appHeaderLogo = $(By.xpath("//nav/div/a[@href='/']"));
-    static SelenideElement bunsHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[1]"));
-    static SelenideElement sauceHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[2]"));
-    static SelenideElement fillersHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[3]"));
-    public static SelenideElement bunsSubHeaderLabel = $(By.xpath("//h2[text()='Булки']"));
-    public static SelenideElement saucesSubHeaderLabel = $(By.xpath("//h2[text()='Соусы']"));
-    public static SelenideElement fillersSubHeaderLabel = $(By.xpath("//h2[text()='Начинки']"));
+    SelenideElement logInButton = $(By.xpath(".//section[2]/div/button[text()='Войти в аккаунт']"));
+    public SelenideElement collectYouBurgerLabel = $(By.xpath(".//section[1]/h1[text()='Соберите бургер']"));
+    SelenideElement personalAccountButton = $(By.xpath(".//p[text()='Личный Кабинет']"));
+    SelenideElement constructorLink = $(By.xpath("//p[text()='Конструктор']"));
+    public SelenideElement constructYouBurgerText = $(By.xpath("//h1[text()='Соберите бургер']"));
+    SelenideElement appHeaderLogo = $(By.xpath("//nav/div/a[@href='/']"));
+    SelenideElement bunsHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[1]"));
+    SelenideElement sauceHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[2]"));
+    SelenideElement fillersHeaderButton = $(By.xpath("//main/section[1]/div[1]/div[3]"));
+    public SelenideElement bunsSubHeaderLabel = $(By.xpath("//h2[text()='Булки']"));
+    public SelenideElement saucesSubHeaderLabel = $(By.xpath("//h2[text()='Соусы']"));
+    public SelenideElement fillersSubHeaderLabel = $(By.xpath("//h2[text()='Начинки']"));
 
     @DisplayName("Клик по кнопке 'Войти'")
     @Step("Клик по кнопке 'Войти'")

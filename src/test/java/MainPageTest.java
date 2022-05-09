@@ -1,12 +1,18 @@
 import burger.MainPage;
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Description;
+import org.junit.After;
 import org.junit.Test;
 
-import static helpers.PagesURLs.MAIN_PAGE;
 import static com.codeborne.selenide.Selenide.open;
+import static helpers.PagesURLs.MAIN_PAGE;
 
 public class MainPageTest {
+    @After
+    public void tearDown() {
+        Selenide.closeWebDriver();
+    }
 
     @Test
     @Description("Раздел «Конструктор»: работают переходы к разделу: «Булки»")
@@ -14,7 +20,7 @@ public class MainPageTest {
         MainPage mainPage = open(MAIN_PAGE, MainPage.class);
         mainPage.pressSauceHeaderButton();
         mainPage.pressBunsHeaderButton();
-        MainPage.bunsSubHeaderLabel.shouldBe(Condition.visible);
+        mainPage.bunsSubHeaderLabel.shouldBe(Condition.visible);
     }
 
     @Test
@@ -22,7 +28,7 @@ public class MainPageTest {
     public void pathSauceIsAvailableTest() {
         MainPage mainPage = open(MAIN_PAGE, MainPage.class);
         mainPage.pressSauceHeaderButton();
-        MainPage.saucesSubHeaderLabel.shouldBe(Condition.visible);
+        mainPage.saucesSubHeaderLabel.shouldBe(Condition.visible);
     }
 
     @Test
@@ -30,6 +36,6 @@ public class MainPageTest {
     public void pathFillersIsAvailableTest() {
         MainPage mainPage = open(MAIN_PAGE, MainPage.class);
         mainPage.pressFillersHeaderButton();
-        MainPage.fillersSubHeaderLabel.shouldBe(Condition.visible);
+        mainPage.fillersSubHeaderLabel.shouldBe(Condition.visible);
     }
 }

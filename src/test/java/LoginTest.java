@@ -7,6 +7,7 @@ import com.codeborne.selenide.Selenide;
 import helpers.User;
 import helpers.UserClient;
 import io.qameta.allure.Description;
+import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,7 +21,7 @@ import static helpers.PagesURLs.*;
 public class LoginTest {
     User user;
     UserClient userClient;
-    Boolean toDelUser;
+    ValidatableResponse response;
 
     @Before
     public void setUp() {
@@ -29,13 +30,16 @@ public class LoginTest {
         setWebDriver(driver);
         user = User.getRandomUser();
         userClient = new UserClient();
-        toDelUser = false;
     }
 
     @After
     public void tearDown() {
         Selenide.closeWebDriver();
-        if (toDelUser) userClient.deleteUser(user);
+        response = userClient.loginUser(user);
+        if (response.extract().body().path("success").equals(true)) {
+            user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
+            userClient.deleteUser(user);
+        }
     }
 
     @Test
@@ -49,8 +53,6 @@ public class LoginTest {
         registerPage.setPasswordField(user.getPassword());
         registerPage.clickSignUpButton();
 
-        toDelUser = user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
-
         MainPage mainPage = open(MAIN_PAGE, MainPage.class);
         mainPage.pressLogInButton();
 
@@ -59,7 +61,7 @@ public class LoginTest {
         loginPage.setPasswordField(user.getPassword());
         loginPage.clickLogInButton();
 
-        MainPage.collectYouBurgerLabel.shouldBe(Condition.exist);
+        mainPage.collectYouBurgerLabel.shouldBe(Condition.exist);
     }
 
     @Test
@@ -72,8 +74,6 @@ public class LoginTest {
         registerPage.setPasswordField(user.getPassword());
         registerPage.clickSignUpButton();
 
-        toDelUser = user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
-
         MainPage mainPage = open(MAIN_PAGE, MainPage.class);
 
         mainPage.pressPersonalAccountButton();
@@ -82,7 +82,7 @@ public class LoginTest {
         loginPage.setPasswordField(user.getPassword());
         loginPage.clickLogInButton();
 
-        MainPage.collectYouBurgerLabel.shouldBe(Condition.exist);
+        mainPage.collectYouBurgerLabel.shouldBe(Condition.exist);
     }
 
     @Test
@@ -95,8 +95,6 @@ public class LoginTest {
         registerPage.setPasswordField(user.getPassword());
         registerPage.clickSignUpButton();
 
-        toDelUser = user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
-
         registerPage = open(REGISTER_PAGE, RegisterPage.class);
         registerPage.clickLogInButton();
 
@@ -105,7 +103,8 @@ public class LoginTest {
         loginPage.setPasswordField(user.getPassword());
         loginPage.clickLogInButton();
 
-        MainPage.collectYouBurgerLabel.shouldBe(Condition.exist);
+        MainPage mainPage = new MainPage();
+        mainPage.collectYouBurgerLabel.shouldBe(Condition.exist);
     }
 
     @Test
@@ -118,8 +117,6 @@ public class LoginTest {
         registerPage.setPasswordField(user.getPassword());
         registerPage.clickSignUpButton();
 
-        toDelUser = user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
-
         ForgotPasswordPage forgotPasswordPage = open(FORGOT_PASSWORD_PAGE, ForgotPasswordPage.class);
         forgotPasswordPage.clickLogInButton();
 
@@ -128,6 +125,7 @@ public class LoginTest {
         loginPage.setPasswordField(user.getPassword());
         loginPage.clickLogInButton();
 
-        MainPage.collectYouBurgerLabel.shouldBe(Condition.exist);
+        MainPage mainPage = new MainPage();
+        mainPage.collectYouBurgerLabel.shouldBe(Condition.exist);
     }
 }

@@ -7,13 +7,13 @@ import com.codeborne.selenide.Selenide;
 import helpers.User;
 import helpers.UserClient;
 import io.qameta.allure.Description;
+import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import static burger.LoginPage.*;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.webdriver;
 import static com.codeborne.selenide.WebDriverConditions.url;
@@ -23,7 +23,7 @@ import static helpers.PagesURLs.*;
 public class PersonalAccountTest {
     User user;
     UserClient userClient;
-    Boolean toDelUser;
+    ValidatableResponse response;
 
     @Before
     public void setUp() {
@@ -32,13 +32,16 @@ public class PersonalAccountTest {
         setWebDriver(driver);
         user = User.getRandomUser();
         userClient = new UserClient();
-        toDelUser = false;
     }
 
     @After
     public void tearDown() {
         Selenide.closeWebDriver();
-        if (toDelUser) userClient.deleteUser(user);
+        response = userClient.loginUser(user);
+        if (response.extract().body().path("success").equals(true)) {
+            user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
+            userClient.deleteUser(user);
+        }
     }
 
     @Test
@@ -46,7 +49,8 @@ public class PersonalAccountTest {
     public void personalAccountNotAvailableWithoutAuthorizationTest() {
         MainPage mainPage = open(MAIN_PAGE, MainPage.class);
         mainPage.pressPersonalAccountButton();
-        logInLabel.shouldBe(Condition.exist);
+        LoginPage loginPage = new LoginPage();
+        loginPage.logInLabel.shouldBe(Condition.exist);
     }
 
     @Test
@@ -62,8 +66,6 @@ public class PersonalAccountTest {
         registerPage.setPasswordField(user.getPassword());
         registerPage.clickSignUpButton();
 
-        toDelUser = user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
-
         registerPage = open(REGISTER_PAGE, RegisterPage.class);
         registerPage.clickLogInButton();
         loginPage.setEmailField(user.getEmail());
@@ -72,7 +74,7 @@ public class PersonalAccountTest {
 
         mainPage.pressPersonalAccountButton();
         webdriver().shouldHave(url(USER_ACCOUNT_PAGE));
-        UserAccountPage.youCanEditCredentialsLabel.shouldBe(Condition.visible);
+        userAccountPage.youCanEditCredentialsLabel.shouldBe(Condition.visible);
     }
 
     @Test
@@ -87,8 +89,6 @@ public class PersonalAccountTest {
         registerPage.setPasswordField(user.getPassword());
         registerPage.clickSignUpButton();
 
-        toDelUser = user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
-
         registerPage = open(REGISTER_PAGE, RegisterPage.class);
         registerPage.clickLogInButton();
         loginPage.setEmailField(user.getEmail());
@@ -97,7 +97,7 @@ public class PersonalAccountTest {
         mainPage.pressPersonalAccountButton();
 
         mainPage.pressConstructorLink();
-        MainPage.constructYouBurgerText.shouldBe(Condition.visible);
+        mainPage.constructYouBurgerText.shouldBe(Condition.visible);
     }
 
     @Test
@@ -112,8 +112,6 @@ public class PersonalAccountTest {
         registerPage.setPasswordField(user.getPassword());
         registerPage.clickSignUpButton();
 
-        toDelUser = user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
-
         registerPage = open(REGISTER_PAGE, RegisterPage.class);
         registerPage.clickLogInButton();
         loginPage.setEmailField(user.getEmail());
@@ -122,7 +120,7 @@ public class PersonalAccountTest {
         mainPage.pressPersonalAccountButton();
 
         mainPage.pressAppHeaderLogo();
-        MainPage.constructYouBurgerText.shouldBe(Condition.visible);
+        mainPage.constructYouBurgerText.shouldBe(Condition.visible);
     }
 
     @Test
@@ -135,8 +133,6 @@ public class PersonalAccountTest {
         registerPage.setPasswordField(user.getPassword());
         registerPage.clickSignUpButton();
 
-        toDelUser = user.setAccessToken(User.getAccessToken(userClient.loginUser(user)));
-
         MainPage mainPage = open(MAIN_PAGE, MainPage.class);
         mainPage.pressLogInButton();
 
@@ -148,7 +144,7 @@ public class PersonalAccountTest {
         UserAccountPage userAccountPage = new UserAccountPage();
 
         userAccountPage.pressExitButton();
-        logInLabel.shouldBe(Condition.visible);
+        loginPage.logInLabel.shouldBe(Condition.visible);
     }
 
 }
