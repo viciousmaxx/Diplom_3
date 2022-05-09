@@ -1,0 +1,171 @@
+[ {
+  "uid" : "5cc85c3babc7fddd",
+  "name" : "registrationWithShortPasswordTest[Проверяемый пароль: uGonQv, отображение ошибки: false]",
+  "time" : {
+    "start" : 1652029815412,
+    "stop" : 1652029822495,
+    "duration" : 7083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60b55b5daae55a2f",
+  "name" : "successfulRegistrationTest",
+  "time" : {
+    "start" : 1652029874682,
+    "stop" : 1652029886303,
+    "duration" : 11621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b65ee27dd6f2aaf",
+  "name" : "goToConstructorPageFromPersonalAccountPageIsAvailableTest",
+  "time" : {
+    "start" : 1652029853506,
+    "stop" : 1652029864025,
+    "duration" : 10519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e39d8b345a55319",
+  "name" : "goToConstructorPageFromPersonalAccountPageIsAvailableWithHeaderLogoTest",
+  "time" : {
+    "start" : 1652029822498,
+    "stop" : 1652029834683,
+    "duration" : 12185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c658f661142308eb",
+  "name" : "registrationWithShortPasswordTest[Проверяемый пароль: M, отображение ошибки: true]",
+  "time" : {
+    "start" : 1652029796350,
+    "stop" : 1652029809145,
+    "duration" : 12795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36bc7b9779ce85e7",
+  "name" : "logInFromForgotPasswordPage",
+  "time" : {
+    "start" : 1652029735700,
+    "stop" : 1652029753790,
+    "duration" : 18090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb1df167db004550",
+  "name" : "loginFromMainPageTest",
+  "time" : {
+    "start" : 1652029753867,
+    "stop" : 1652029765325,
+    "duration" : 11458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43f965c17c936c73",
+  "name" : "registrationWithShortPasswordTest[Проверяемый пароль: FFVgk, отображение ошибки: true]",
+  "time" : {
+    "start" : 1652029809147,
+    "stop" : 1652029815392,
+    "duration" : 6245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c278d410a22e827",
+  "name" : "pathBunsIsAvailableTest",
+  "time" : {
+    "start" : 1652029785137,
+    "stop" : 1652029792855,
+    "duration" : 7718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "693dd0d3e183597e",
+  "name" : "personalAccountNotAvailableWithoutAuthorizationTest",
+  "time" : {
+    "start" : 1652029834685,
+    "stop" : 1652029842640,
+    "duration" : 7955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4afbb4d440887587",
+  "name" : "pathFillersIsAvailableTest",
+  "time" : {
+    "start" : 1652029792857,
+    "stop" : 1652029793685,
+    "duration" : 828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee29fec8aa07b5d4",
+  "name" : "personalAccountAvailableWithAuthorizationTest",
+  "time" : {
+    "start" : 1652029864027,
+    "stop" : 1652029874677,
+    "duration" : 10650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c66684bf5d35edf",
+  "name" : "logInFromRegistrationPage",
+  "time" : {
+    "start" : 1652029765329,
+    "stop" : 1652029775772,
+    "duration" : 10443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64f04f922494231e",
+  "name" : "exitFromPersonalAccountAvailableTest",
+  "time" : {
+    "start" : 1652029842642,
+    "stop" : 1652029853504,
+    "duration" : 10862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "427768559e271c0e",
+  "name" : "loginFromPersonalAccountTest",
+  "time" : {
+    "start" : 1652029775774,
+    "stop" : 1652029785132,
+    "duration" : 9358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34ec9523c4ec5e95",
+  "name" : "pathSauceIsAvailableTest",
+  "time" : {
+    "start" : 1652029793687,
+    "stop" : 1652029794547,
+    "duration" : 860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac4407cc6d98ff1d",
+  "name" : "registrationWithShortPasswordTest[Проверяемый пароль: , отображение ошибки: false]",
+  "time" : {
+    "start" : 1652029794562,
+    "stop" : 1652029796348,
+    "duration" : 1786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

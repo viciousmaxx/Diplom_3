@@ -1,0 +1,230 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "",
+    "children" : [ {
+      "name" : "logInFromForgotPasswordPage",
+      "uid" : "36bc7b9779ce85e7",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029735700,
+        "stop" : 1652029753790,
+        "duration" : 18090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromMainPageTest",
+      "uid" : "cb1df167db004550",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029753867,
+        "stop" : 1652029765325,
+        "duration" : 11458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInFromRegistrationPage",
+      "uid" : "c66684bf5d35edf",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029765329,
+        "stop" : 1652029775772,
+        "duration" : 10443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginFromPersonalAccountTest",
+      "uid" : "427768559e271c0e",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029775774,
+        "stop" : 1652029785132,
+        "duration" : 9358
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "pathBunsIsAvailableTest",
+      "uid" : "7c278d410a22e827",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029785137,
+        "stop" : 1652029792855,
+        "duration" : 7718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "pathFillersIsAvailableTest",
+      "uid" : "4afbb4d440887587",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029792857,
+        "stop" : 1652029793685,
+        "duration" : 828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "pathSauceIsAvailableTest",
+      "uid" : "34ec9523c4ec5e95",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029793687,
+        "stop" : 1652029794547,
+        "duration" : 860
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registrationWithShortPasswordTest[Проверяемый пароль: , отображение ошибки: false]",
+      "uid" : "ac4407cc6d98ff1d",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029794562,
+        "stop" : 1652029796348,
+        "duration" : 1786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registrationWithShortPasswordTest[Проверяемый пароль: M, отображение ошибки: true]",
+      "uid" : "c658f661142308eb",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029796350,
+        "stop" : 1652029809145,
+        "duration" : 12795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registrationWithShortPasswordTest[Проверяемый пароль: FFVgk, отображение ошибки: true]",
+      "uid" : "43f965c17c936c73",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029809147,
+        "stop" : 1652029815392,
+        "duration" : 6245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registrationWithShortPasswordTest[Проверяемый пароль: uGonQv, отображение ошибки: false]",
+      "uid" : "5cc85c3babc7fddd",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029815412,
+        "stop" : 1652029822495,
+        "duration" : 7083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "goToConstructorPageFromPersonalAccountPageIsAvailableWithHeaderLogoTest",
+      "uid" : "3e39d8b345a55319",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029822498,
+        "stop" : 1652029834683,
+        "duration" : 12185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "personalAccountNotAvailableWithoutAuthorizationTest",
+      "uid" : "693dd0d3e183597e",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029834685,
+        "stop" : 1652029842640,
+        "duration" : 7955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "exitFromPersonalAccountAvailableTest",
+      "uid" : "64f04f922494231e",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029842642,
+        "stop" : 1652029853504,
+        "duration" : 10862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "goToConstructorPageFromPersonalAccountPageIsAvailableTest",
+      "uid" : "9b65ee27dd6f2aaf",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029853506,
+        "stop" : 1652029864025,
+        "duration" : 10519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "personalAccountAvailableWithAuthorizationTest",
+      "uid" : "ee29fec8aa07b5d4",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029864027,
+        "stop" : 1652029874677,
+        "duration" : 10650
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "successfulRegistrationTest",
+      "uid" : "60b55b5daae55a2f",
+      "parentUid" : "be5e18e41bf32fca5cace70290d883bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652029874682,
+        "stop" : 1652029886303,
+        "duration" : 11621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "be5e18e41bf32fca5cace70290d883bb"
+  } ]
+}

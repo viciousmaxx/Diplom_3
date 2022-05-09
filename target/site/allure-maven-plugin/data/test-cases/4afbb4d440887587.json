@@ -1,0 +1,84 @@
+{
+  "uid" : "4afbb4d440887587",
+  "name" : "pathFillersIsAvailableTest",
+  "fullName" : "MainPageTest.pathFillersIsAvailableTest",
+  "historyId" : "1b112eb29a5d19085de69ff49495a0a0",
+  "time" : {
+    "start" : 1652029792857,
+    "stop" : 1652029793685,
+    "duration" : 828
+  },
+  "description" : "Раздел «Конструктор»: работают переходы к разделу: «Начинки»",
+  "descriptionHtml" : "<p>Раздел «Конструктор»: работают переходы к разделу: «Начинки»</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Раздел «Конструктор»: работают переходы к разделу: «Начинки»",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик по кнопке 'Начинки'",
+      "time" : {
+        "start" : 1652029793174,
+        "stop" : 1652029793661,
+        "duration" : 487
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "pathFillersIsAvailableTest"
+  }, {
+    "name" : "suite",
+    "value" : "MainPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PNA8O1J9"
+  }, {
+    "name" : "thread",
+    "value" : "23536@LAPTOP-PNA8O1J9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4afbb4d440887587.json",
+  "parameterValues" : [ ]
+}

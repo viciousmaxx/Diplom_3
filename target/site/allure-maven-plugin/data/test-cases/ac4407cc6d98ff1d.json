@@ -1,0 +1,138 @@
+{
+  "uid" : "ac4407cc6d98ff1d",
+  "name" : "registrationWithShortPasswordTest[Проверяемый пароль: , отображение ошибки: false]",
+  "fullName" : "ParametrizedWrongPasswordRegistrationTest.registrationWithShortPasswordTest[Проверяемый пароль: , отображение ошибки: false]",
+  "historyId" : "7366aedf7164e38f05f06d599e40095f",
+  "time" : {
+    "start" : 1652029794562,
+    "stop" : 1652029796348,
+    "duration" : 1786
+  },
+  "description" : "Попытка регистрации с коротким паролем выводит сообщение 'Некорректный пароль'",
+  "descriptionHtml" : "<p>Попытка регистрации с коротким паролем выводит сообщение 'Некорректный пароль'</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Попытка регистрации с коротким паролем выводит сообщение 'Некорректный пароль'",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Ввод значения в поле 'Имя'",
+      "time" : {
+        "start" : 1652029795368,
+        "stop" : 1652029795450,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Geraldo Green"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'E-mail'",
+      "time" : {
+        "start" : 1652029795459,
+        "stop" : 1652029795557,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "kareen.jacobs@hotmail.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод значения в поле 'Пароль'",
+      "time" : {
+        "start" : 1652029795557,
+        "stop" : 1652029795602,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : ""
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Зарегистрироваться'",
+      "time" : {
+        "start" : 1652029795602,
+        "stop" : 1652029795649,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ParametrizedWrongPasswordRegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationWithShortPasswordTest[Проверяемый пароль: , отображение ошибки: false]"
+  }, {
+    "name" : "suite",
+    "value" : "ParametrizedWrongPasswordRegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PNA8O1J9"
+  }, {
+    "name" : "thread",
+    "value" : "23536@LAPTOP-PNA8O1J9.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac4407cc6d98ff1d.json",
+  "parameterValues" : [ ]
+}
